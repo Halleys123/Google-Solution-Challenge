@@ -1,0 +1,153 @@
+.front {
+  min-height: 80vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: center;
+  justify-items: end;
+  background-image: url("./resources/Homepage\ C2\ -\ First\ -\ Edited\ 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container {
+  width: 80%;
+  padding: 2rem 1.6rem;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.firstImage {
+  width: 60%;
+  object-fit: stretch;
+}
+.test {
+  width: 100%;
+  border-radius: 50% 0 0 50%;
+}
+.flexOfTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 100%;
+}
+.item {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
+}
+.mainImage {
+  height: 80%;
+  border-radius: 50% 0 0 50%;
+  align-self: center;
+}
+.mainIcon {
+  height: 100%;
+  border-radius: 50% 0 0 50%;
+}
+.mainIcons {
+  height: 20%;
+  /* border-radius: 50% 0 0 50%; */
+}
+.itemContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1.2rem;
+}
+.item {
+  height: 32rem;
+  display: flex;
+}
+.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.subHeading {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+#secondImage {
+  height: 80%;
+  border-radius: 0 50% 50% 0;
+}
+.zigZag {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.linked {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: hsl(231, 11%, 63%);
+  display: block;
+  padding: 1.2rem 0 0 1rem;
+}
+.readMore {
+  align-self: flex-start;
+  margin-top: 12rem;
+}
+.heade {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+.learn {
+  padding-bottom: 3.2rem;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  box-shadow: 3px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  transition: all 0.3s;
+  padding: 1.2rem;
+}
+.card2:hover {
+  box-shadow: 3px 1px 10px 1px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+.cardTwoImage {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 0;
+  background-color: red;
+}
+.threeLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+}
+.link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
+}
+
+.link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.link:hover {
+  cursor: pointer;
+}
+.headText {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: hsl(213, 96%, 18%);
+}

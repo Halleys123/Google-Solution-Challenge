@@ -1,21 +1,27 @@
 .header {
-  background: #000;
+  background: hsl(213, 96%, 18%);
   color: #fff;
-  padding: 10px;
+  padding: 0.5rem;
   text-align: center;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
+  height: 6.4rem;
+  font-size: 1.6rem;
 }
 .mainIcon {
-  width: 50rem;
-  height: 50rem;
-  border-radius: 50%;
-  background: #fff;
-  margin: 0 10px;
+  /* border-radius: 50%; */
+  /* background: #fff; */
+  /* margin: 0 10px; */
+  height: calc(100%);
 }
 .links {
   display: flex;
   justify-content: space-evenly;
   width: 35%;
+}
+.iconImage {
+  height: calc(100%);
+  padding: 0 0 0 2.4rem;
 }
