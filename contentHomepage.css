@@ -181,6 +181,9 @@
   font-size: 2.4rem;
   line-height: 4rem;
 }
+.renewableEnergy > p:nth-child(4) {
+  padding-top: 6.8rem;
+}
 .typesOfEnergy {
   display: grid;
   width: 100%;
@@ -246,4 +249,5 @@
 }
 .readMoreButton:active {
   background-color: hsl(243, 100%, 72%);
+  transform: scale(1);
 }
