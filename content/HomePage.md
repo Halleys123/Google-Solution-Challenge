@@ -41,4 +41,3 @@ Renewable energy sources are those that can naturally replace or regenerate them
 4. Geothermal power
 5. Energy from biomass
 6. Tidal Energy
-7. smart grid energy
