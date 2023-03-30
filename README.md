@@ -70,7 +70,6 @@ We hope you find the resources on this website helpful in your journey to creati
     type="image/x-icon"
   />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sustainable Cities</title>
   ```
 
   - When you create a new page, make sure to add the link to the navigation bar in the header of the index.html file.

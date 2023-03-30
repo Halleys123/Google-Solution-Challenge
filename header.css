@@ -10,6 +10,7 @@
   height: 6.4rem;
   font-size: 1.6rem;
 }
+
 .mainIcon {
   /* border-radius: 50%; */
   /* background: #fff; */
@@ -40,4 +41,13 @@
 
 .link:hover {
   cursor: pointer;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  visibility: 0.5;
+  transition: all 0.5s;
 }

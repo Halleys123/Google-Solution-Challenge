@@ -21,7 +21,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <script defer src = "index.js"></script>
+    <script defer src="index.js"></script>
 
     <link
       rel="shortcut icon"
@@ -37,9 +37,10 @@
         <img src="./Icons/planet-earth.webp" class="mainIcon" />
       </div>
       <div class="links">
-        <span class="link">Coping</span>
-        <span class="link" id = "solar">Solar</span>
-        <span class="link">About Us</span>
+        <span class="link" id="index">Home</span>
+        <span class="link" id="what">Cities</span>
+        <span class="link" id="renewHead">Renewable Energy</span>
+        <span class="link" id="about">About Us</span>
       </div>
     </header>
     <div class="front">
@@ -48,7 +49,6 @@
           A habitable, resilient, and egalitarian urban environments .
         </p>
       </div>
-     
     </div>
     <div class="container">
       <div class="what">
@@ -59,10 +59,13 @@
         <div class="zigZag">
           <div class="item1 item">
             <div class="imageBox">
-              <img src="./resources/energy.webp" class="mainImage" />
+              <img
+                src="./resources/LazyLoaders/cityPlan.webp"
+                class="mainImage blur"
+              />
             </div>
             <div class="itemContent">
-              <p class="heading">Some Heading</p>
+              <p class="heading">City Planning</p>
               <p class="subHeading">
                 Urban regions that have been planned and developed to support
                 long-term social, economic, and environmental sustainability are
@@ -72,10 +75,13 @@
           </div>
           <div class="item2 item">
             <div class="imageBox">
-              <img src="./resources/beach.webp" class="mainImage" />
+              <img
+                src="./resources/LazyLoaders/cityLooksLike.webp"
+                class="mainImage blur"
+              />
             </div>
             <div class="itemContent">
-              <p class="heading">Some Heading</p>
+              <p class="heading">Sustainable Living.</p>
               <p class="subHeading">
                 These communities strive to offer citizens a good quality of
                 life while limiting detrimental effects on ecosystems and
@@ -86,10 +92,13 @@
 
           <div class="item3 item">
             <div class="imageBox">
-              <img src="./resources/wind.webp " class="mainImage" />
+              <img
+                src="./resources/LazyLoaders/crossRoad.webp "
+                class="mainImage blur"
+              />
             </div>
             <div class="itemContent">
-              <p class="heading">Some Heading</p>
+              <p class="heading">Community Support</p>
               <p class="subHeading">
                 Sustainable communities feature green spaces, efficient public
                 transit, renewable energy, trash reduction and recycling
@@ -102,22 +111,31 @@
       <div class="readMore">
         <p class="head heade learn">Learn more about sustainable cities</p>
         <div class="threeLinks">
-          <div class="card2">
-            <img src="./resources/dry.jpg" class="cardTwoImage" />
+          <div class="card2" id="cityLooks">
+            <img
+              src="./resources/LazyLoaders/Importance.webp"
+              class="cardTwoImage blur"
+            />
             <a class="linked"
               >What a sustainable city looks like
               <!-- whatcity -->
             </a>
           </div>
-          <div class="card2">
-            <img src="./resources/Coping.webp" class="cardTwoImage" />
+          <div class="card2" id="importance">
+            <img
+              src="./resources/LazyLoaders/importances.webp"
+              class="cardTwoImage blur"
+            />
             <a class="linked">
               <!-- Inportance -->
               Importance of sustainable cities</a
             >
           </div>
-          <div class="card2">
-            <img src="./resources/beach.webp" class="cardTwoImage" />
+          <div class="card2" id="cope">
+            <img
+              src="./resources/LazyLoaders/cope.webp"
+              class="cardTwoImage blur"
+            />
             <!-- Coping -->
             <a class="linked"> How to cope with problems</a>
           </div>
@@ -141,58 +159,63 @@
         </p>
         <p class="subHead">What are the types of Renewable Energy</p>
         <div class="typesOfEnergy">
-          
-          <div class="item solar">
-            <img src="resources/energy.webp" />
+          <div class="item solar" id="solar">
+            <img
+              class="sixImage blur"
+              src="resources/LazyLoaders/energy.webp"
+            />
             <p class="heading">Solar Energy</p>
           </div>
-          <div class="item">
-            <img src="resources/sea.webp" />
+          <div class="item" id="tidal">
+            <img class="sixImage blur" src="resources/LazyLoaders/sea.webp" />
             <p class="heading">Tidal Energy</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi
-              saepe rem quidem a odio, minima maxime quisquam odit laborum magni
-              beatae nostrum porro dolores excepturi iusto veniam quia nisi?
+              Tidal power is an emerging, reliable and predictable source of
+              renewable energy that harnesses the power of the tides to generate
+              electricity
             </p>
-            <input type = "button" class="readMoreButton" value="READ MORE"></input>
           </div>
-          <div class="item">
-            <img src="resources/tractor.webp" />
+          <div class="item" id="biomass">
+            <img
+              class="sixImage blur"
+              src="resources/LazyLoaders/tractor.webp"
+            />
             <p class="heading">Biomass Energy</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi
               saepe rem quidem a odio, minima maxime quisquam odit laborum magni
               beatae nostrum porro dolores excepturi iusto veniam quia nisi?
             </p>
-            <input type = "button" class="readMoreButton" value="READ MORE"></input>
           </div>
-          <div class="item">
-            <img src="resources/beach.webp" />
+          <div class="item" id="geothermal">
+            <img class="sixImage blur" src="resources/LazyLoaders/dam.webp" />
             <p class="heading">Geothermal Power</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi
               saepe rem quidem a odio, minima maxime quisquam odit laborum magni
               beatae nostrum porro dolores excepturi iusto veniam quia nisi?
             </p>
-            <input type = "button" class="readMoreButton" value="READ MORE"></input>
           </div>
-          <div class="item">
-            <img src="resources/beach.webp" />
+          <div class="item" id="hydro">
+            <img
+              class="sixImage blur"
+              src="resources/LazyLoaders/seaThumb.webp"
+            />
             <p class="heading">Hydroelectric Power</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quasi
-              saepe rem quidem a odio, minima maxime quisquam odit laborum magni
-              beatae nostrum porro dolores excepturi iusto veniam quia nisi?
+              Harness the Power of the Sea: Unlock the Potential of Tidal
+              Energy! Tidal energy is a renewable and clean power source that
+              can provide an abundant and reliable source of energy
             </p>
-            <input type = "button" class="readMoreButton" value="READ MORE"></input>
           </div>
-          <div class="item wind">
-            <img src="resources/wind.webp" />
+          <div class="item wind" id="wind">
+            <img class="sixImage blur" src="resources/LazyLoaders/wind.webp" />
             <p class="heading">Wind Power</p>
           </div>
         </div>
       </div>
     </div>
   </body>
-  <script src="script.js"></script>
+  <script src="header.js"></script>
+  <script src="index.js"></script>
 </html>

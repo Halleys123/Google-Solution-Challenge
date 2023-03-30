@@ -5,9 +5,8 @@
   grid-template-columns: 1fr 2fr;
   align-content: center;
   justify-items: end;
-  background-image: url("./resources/Homepage\ C3\ -\ First.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+    url("./resources/home.webp") no-repeat center center fixed;
 }
 .container {
   margin-top: 10rem;
@@ -239,4 +238,11 @@
 .readMoreButton:active {
   background-color: hsl(243, 100%, 72%);
   transform: scale(0.95);
+}
+.blur {
+  filter: blur(5px);
+}
+.heading {
+  align-self: center;
+  text-align: center;
 }
