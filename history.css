@@ -1,0 +1,104 @@
+*{
+   border:0;
+   margin:0;
+   font-family: 'Ubuntu',sans-serif;
+}
+
+body{
+   font-size: 10px;
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   /* align-items: flex-start; */
+
+}
+/* .container{
+      object-fit: contain;
+      min-height: 80%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-image: url("images/History\ -\ C1.webp");
+      background-repeat: no-repeat;
+      background-size:cover;
+    } */
+
+
+.container{
+   width: 100%;
+   height: 100%;
+   /* top:35px; */
+   position: relative;
+   /* top:100%; */
+   display: flex;
+   align-items: start;
+   justify-content: flex-start;
+}
+.history{
+   font-size: 6.4rem;
+   position: absolute;
+   left: 50%;
+   top: 40%;
+   transform: translate(-50%, -50%);
+   color:hsl(213, 96%, 18%) ;
+   
+}
+.myImage{
+   width: 100%;
+   height: 80%;
+   /* align-self: flex-start; */
+}
+
+.nav{
+   position: fixed;
+   width:100vw;
+   height:35px;
+   background-color:  hsl(213, 96%, 18%);
+   z-index: 1;
+}
+.contents{
+   width:80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap:2.4rem;
+  
+}
+
+.date{
+   font-size: 4.8rem;
+   font-weight: 600;
+   color: hsl(213, 96%, 18%);
+   padding-bottom: 1.2rem;
+
+}
+
+.box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding:20px;
+   box-shadow: 5px 3px 5px #b7b7b7;
+   gap:2.4rem;
+transition-duration: 0.3s;
+border-radius: 1.2rem;
+
+}
+.box:hover{
+   transform: scale(1.02);
+   z-index: 1;
+}
+
+
+.content{
+   font-size: 1.8rem;
+   line-height: 2.8rem;
+   letter-spacing: 1px;
+   font-weight: 400;
+   padding: 10px;
+}
+
+

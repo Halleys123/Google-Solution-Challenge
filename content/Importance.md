@@ -22,3 +22,6 @@ Sustainable cities encourage the effective use of resources like water, electric
 #### Social benefits <!-- Subheading -->
 
 In order to promote social cohesion and equality, sustainable cities guarantee accessibility to basic resources and services like housing, transportation, education, and healthcare.
+
+1280 * 1280
+1920 * 1280
