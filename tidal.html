@@ -38,9 +38,9 @@
         <img src="./Icons/planet-earth.webp" class="mainIcon" />
       </div>
       <div class="links">
-        <span class="link">Coping</span>
+        <span class="link" id="index">Home</span>
         <span class="link" id="solar">Solar</span>
-        <span class="link">About Us</span>
+        <span class="link" id="about">About Us</span>
       </div>
     </header>
     <div class="front">
@@ -96,30 +96,37 @@
     </div>
     <div class="moreLinks">
       <div class="readMore">
-        <p class="head heade learn">More on Tidal Energy</p>
+        <p class="head heade learn">Read More...</p>
         <div class="threeLinks">
-          <div class="card2">
+          <div
+            class="card2"
+            data-link="https://en.wikipedia.org/wiki/Climate_change"
+          >
             <img src="./resources/wiki.webp" class="cardTwoImage" />
             <a class="linked"
               >Wikipedia
               <!-- whatcity -->
             </a>
           </div>
-          <div class="card2">
-            <img src="./resources/Coping.webp" class="cardTwoImage" />
+          <div class="card2" data-link="https://www.youtube.com/UNITEDNATIONS">
+            <img src="./resources/youtube.png" class="cardTwoImage img2" />
             <a class="linked">
               <!-- Inportance -->
-              Site 2</a
+              Youtube</a
             >
           </div>
-          <div class="card2">
-            <img src="./resources/beach.webp" class="cardTwoImage" />
+          <div
+            class="card2"
+            data-link="https://www.un.org/en/our-work/support-sustainable-development-and-climate-action"
+          >
+            <img src="./resources/UN_emblem_blue.svg" class="cardTwoImage" />
             <!-- Coping -->
-            <a class="linked"> Site 3</a>
+            <a class="linked">United Nations</a>
           </div>
         </div>
       </div>
     </div>
   </body>
   <script src="script.js"></script>
+  <script src="externalLinks.js"></script>
 </html>
