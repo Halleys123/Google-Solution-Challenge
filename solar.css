@@ -1,7 +1,8 @@
 .front {
   width: 100vw;
   height: 80vh;
-  background: url("resources/energy.webp") no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("resources/energy.webp") no-repeat center center fixed;
 
   background-size: cover;
   position: relative;
@@ -21,7 +22,7 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
-.headText::after {
+/* .headText::after {
   content: "";
   position: absolute;
   top: 0;
@@ -36,7 +37,7 @@
     rgba(9, 255, 255, 0.3) 100%
   );
   z-index: -1;
-}
+} */
 .main {
   width: 80%;
   height: 100%;
