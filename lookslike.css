@@ -1,0 +1,135 @@
+*{
+   padding: 0px;
+   margin:0px
+}
+body{
+   font-size: 10px;
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   /* align-items: flex-start; */
+
+}
+
+
+.container{
+   width:80vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:60px;
+   margin-bottom: 3.6rem;
+}
+.heading{
+   font-size: 2.4rem;
+   font-weight: 500;
+
+   color: hsl(213, 96%, 18%);}
+
+
+.box:nth-child(odd) > .content > .heading
+{
+   transform: translateX(-50%);
+}
+   .box{
+   display: flex;
+   width:95%;
+   gap:20px;
+   box-shadow: 5px 3px 5px #b7b7b7;
+   transition-duration: 0.3s;
+   border-radius: 1.2rem;
+
+   margin-top: 2.4rem;
+ 
+   
+}
+.box:nth-child(odd)>.img{
+   border-radius:  1.2rem 0 0 1.2rem;
+}
+.box:nth-child(even)>.img{
+   border-radius: 0 1.2rem  1.2rem 0;
+}
+.box:nth-child(even)>.content>.paragraph{
+   padding-left:2.4rem
+}
+
+.box:hover{
+   transform: scale(1.03);
+}
+.img{
+   width: 100px;
+   height: 100px;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+.paragraph{
+   font-size: 2rem;
+    line-height: 4rem;
+    letter-spacing: 1px;
+    padding-bottom: 1.2rem;
+}
+.problem{
+   font-size: 4.8rem;
+   padding-bottom: 4.8rem;
+   font-weight: 700;
+   text-align: center;
+   
+}
+
+.img{ transition-duration: 0.3s;
+ 
+  
+   height: 12.8rem;
+   width:12.8rem;
+
+}
+.img:hover{
+   transform: scale(1.03);
+   box-shadow: 5px 3px 5px #b7b7b7;
+}.paragraph {
+   font-size: 1.6rem;
+   line-height: 2.8rem;
+   letter-spacing: 1px;
+   padding-bottom: 1.2rem;
+ }
+
+ 
+.containers{
+   width: 100%;
+   height: 100%;
+   /* top:35px; */
+   position: relative;
+   /* top:100%; */
+   display: flex;
+   align-items: start;
+   justify-content: flex-start;
+}
+.coping{
+   font-size: 6.4rem;
+   position: absolute;
+   left: 50%;
+   top: 40%;
+   transform: translate(-50%, -50%);
+   color:hsl(213, 96%, 18%) ;
+   
+}
+.myImage{
+   width: 100%;
+   height: 80%;
+   /* align-self: flex-start; */
+}
+
+
+.p{
+   color: hsl(231, 11%, 63%);
+   font-size: 2.4rem;
+   text-align: center;
+   padding: 4.8rem;
+}
