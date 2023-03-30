@@ -1,74 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>What city looks like</title>
-   <link rel="stylesheet" href="lookslike.css">
-   <link rel="stylesheet" href="header.css">
-   <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="header">
-    <div class="iconImage">
-      <img src="./Icons/planet-earth.webp" class="mainIcon" />
-    </div>
-    <div class="links">
-      <span class="link">Item 1</span>
-      <span class="link">Item 2</span>
-      <span class="link">Item 3</span>
-    </div>
-  </header>
-   <div class="containers">
-      <img src="./resources/beach.webp" class="myImage" />
-      <p class="coping">What City Looks Like</p>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="lookslike.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-    <div>
-      <p class="problem">What a sustainable city looks like</p>
-      <div class="main"><p class="p">Use of Resources Efficiently Sustainable cities make effective use of resources including electricity, water, and land. This is accomplished by utilising green infrastructure, effective transportation methods, and renewable energy sources.</p></div>
+    <link
+      rel="shortcut icon"
+      href="./Icons/planet-earth.ico"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Views</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="iconImage">
+        <img src="./Icons/planet-earth.webp" class="mainIcon" />
+      </div>
+      <div class="links">
+        <span class="link" id="index">Home</span>
+        <span class="link" id="tidal">Tidal</span>
+        <span class="link" id="about">About Us</span>
+      </div>
+    </header>
+    <div class="front">
+      <p class="headText">What a Sustainable City Looks Like</p>
+    </div>
+    <div class="main">
+      <p class="head">Sustainable City</p>
+      <p class="subHead">What is Sustainable City?</p>
+      <p class="text">
+        Use of Resources Efficiently Sustainable cities make effective use of
+        resources including electricity, water, and land. This is accomplished
+        by utilising green infrastructure, effective transportation methods, and
+        renewable energy sources.
+      </p>
+      <p class="subHead gapTop"></p>
       <div class="container">
         <div class="box">
-          <img class="img" src="./resources/tractor.webp" />
+          <img class="img" src="./resources/carbon.webp" />
           <div class="content">
-            <p class="heading">Lower carbon emissions </p>
-            <p class="paragraph">
-               By using renewable energy sources and environmentally friendly transportation options, sustainable cities have low carbon emissions.
-
+            <p class="subHead">Lower carbon emissions</p>
+            <p class="text">
+              By using renewable energy sources and environmentally friendly
+              transportation options, sustainable cities have low carbon
+              emissions.
             </p>
           </div>
         </div>
         <div class="box">
+          <img class="img" src="./resources/greenspace.webp" />
           <div class="content">
-            <p class="heading">Green spaces</p>
-            <p class="paragraph">
-               To promote access to nature and biodiversity, sustainable cities place a high priority on the development of green spaces like parks and gardens.
-            </p>
-          </div>
-          <img class="img" src="./resources/tractor.webp" />
-        </div>
-        <div class="box">
-          <img class="img" src="./resources/tractor.webp" />
-          <div class="content">
-            <p class="heading">Walkable/Bikeable Communities</p>
-            <p class="paragraph">
-            
-               Communities that are walkable and bikeable promote physical activity and lessen reliance on cars, making them characteristics of sustainable cities.
+            <p class="subHead">Green spaces</p>
+            <p class="text">
+              To promote access to nature and biodiversity, sustainable cities
+              place a high priority on the development of green spaces like
+              parks and gardens.
             </p>
           </div>
         </div>
         <div class="box">
+          <img class="img" src="./resources/path.webp" />
           <div class="content">
-            <p class="heading">Green Infrastructure</p>
-            <p class="paragraph">
+            <p class="subHead">Walkable/Bikeable Communities.</p>
+            <p class="text">
+              Communities that are walkable and bikeable promote physical
+              activity and lessen reliance on cars, making them characteristics
+              of sustainable cities.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img class="img" src="./resources/greeninfa.webp" />
+          <div class="content">
+            <p class="subHead">Green Infrastructure</p>
+            <p class="text">
               Investment in green infrastructure, such as green walls, rain
               gardens, and roofs with living plants, can help to lessen the
               urban heat island effect.
             </p>
           </div>
-          <img class="img" src="./resources/tractor.webp" />
         </div>
+        <div class="box">
+          <img class="img" src="./resources/share.webp" />
+          <div class="content">
+            <p class="subHead">Multi-modal transportation</p>
+            <p class="text">
+              To ease traffic congestion and increase mobility, sustainable
+              cities feature multi-modal transportation systems that include
+              public transportation, bike- and car-sharing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="moreLinks">
+      <div class="readMore">
+        <p class="head heade learn">Read More...</p>
+        <div class="threeLinks">
+          <div
+            class="card2"
+            data-link="https://en.wikipedia.org/wiki/Climate_change"
+          >
+            <img src="./resources/wiki.webp" class="cardTwoImage" />
+            <a class="linked"
+              >Wikipedia
+              <!-- whatcity -->
+            </a>
+          </div>
+          <div class="card2" data-link="https://www.youtube.com/UNITEDNATIONS">
+            <img src="./resources/youtube.png" class="cardTwoImage img2" />
+            <a class="linked">
+              <!-- Inportance -->
+              Youtube</a
+            >
+          </div>
+          <div
+            class="card2"
+            data-link="https://www.un.org/en/our-work/support-sustainable-development-and-climate-action"
+          >
+            <img src="./resources/UN_emblem_blue.svg" class="cardTwoImage" />
+            <!-- Coping -->
+            <a class="linked">United Nations</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="externalLinks.js"></script>
+  <script src="header.js"></script>
+</html>
+<!-- 
+   
+
+       
+     
+       
         <div class="box">
           <img class="img" src="./resources/tractor.webp" />
           <div class="content">
@@ -88,4 +175,4 @@
 </html>
 
 </body>
-</html>
+</html> -->

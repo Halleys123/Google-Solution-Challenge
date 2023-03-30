@@ -4,10 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coping</title>
-    <link rel="stylesheet" href="coping.css" />
-    <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="hydro.css" />
+    <link rel="stylesheet" href="coping.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./Icons/planet-earth.ico"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coping</title>
   </head>
   <body>
     <header class="header">
@@ -20,10 +43,129 @@
         <span class="link" id="about">About Us</span>
       </div>
     </header>
-    <div class="containers">
-      <img src="./resources/beach.webp" class="myImage" />
-      <p class="coping">Coping</p>
+    <div class="front">
+      <p class="headText">Coping</p>
     </div>
+    <div class="main">
+      <p class="head">Coping</p>
+      <p class="subHead">How to Cope with Problem</p>
+      <p class="text">
+        Biomass power is the use of organic materials, such as wood,
+        agricultural waste, and other biological materials, to generate
+        electricity. This renewable energy source is considered carbon neutral,
+        meaning it does not contribute to global warming, as the carbon dioxide
+        released when biomass is burned is the same amount that was absorbed
+        while the material was growing. The burning of biomass is also more
+        efficient than burning coal or oil, with higher energy output and fewer
+        harmful emissions.
+      </p>
+      <p class="subHead gapTop">How to Cope with Environmental Problems?</p>
+      <div class="container">
+        <div class="box">
+          <img src="./resources/cityPlan.webp" class="img" />
+          <div class="content">
+            <p class="subHead">Urban Planning</p>
+            <p class="text">
+              Urban planning should integrate ideas to lessen sprawl, promote
+              walking and public transportation, and encourage mixed-use zoning.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./resources/seaThumb.webp" class="img" />
+          <div class="content">
+            <p class="subHead">Renewable Energy</p>
+            <p class="text">
+              Cities must switch to renewable energy sources such as wind
+              turbines, solar panels, and other environmentally friendly energy
+              sources to lessen their carbon footprint.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./resources/climate.webp" class="img" />
+          <div class="content">
+            <p class="subHead">Energy Efficiency</p>
+            <p class="text">
+              Energy consumption can be decreased by making investments in
+              insulation for buildings, LED lighting, and energy-efficient
+              appliances.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./resources/greenBuild.webp" class="img" />
+          <div class="content">
+            <p class="subHead">Green Infrastructure</p>
+            <p class="text">
+              Investment in green infrastructure, such as green walls, rain
+              gardens, and roofs with living plants, can help to lessen the
+              urban heat island effect.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./resources/pexels-pixabay-269874.webp" class="img" />
+          <div class="content">
+            <p class="subHead">Water Management</p>
+            <p class="text">
+              Effective water management systems that cut down on water use,
+              control stormwater, and stop runoff pollution should be a priority
+              for sustainable communities.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./resources/hydro.webp" class="img" />
+          <div class="content">
+            <p class="subHead">Waste Management</p>
+            <p class="text">
+              To lessen the amount of waste sent to landfills, cities should
+              invest in efficient waste management systems that encourage
+              composting, recycling, and waste reduction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="moreLinks">
+      <div class="readMore">
+        <p class="head heade learn">Read More...</p>
+        <div class="threeLinks">
+          <div
+            class="card2"
+            data-link="https://en.wikipedia.org/wiki/Climate_change"
+          >
+            <img src="./resources/wiki.webp" class="cardTwoImage" />
+            <a class="linked"
+              >Wikipedia
+              <!-- whatcity -->
+            </a>
+          </div>
+          <div class="card2" data-link="https://www.youtube.com/UNITEDNATIONS">
+            <img src="./resources/youtube.png" class="cardTwoImage img2" />
+            <a class="linked">
+              <!-- Inportance -->
+              Youtube</a
+            >
+          </div>
+          <div
+            class="card2"
+            data-link="https://www.un.org/en/our-work/support-sustainable-development-and-climate-action"
+          >
+            <img src="./resources/UN_emblem_blue.svg" class="cardTwoImage" />
+            <!-- Coping -->
+            <a class="linked">United Nations</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script src="externalLinks.js"></script>
+</html>
+
+<!-- <!DOCTYPE html>
 
     <div>
       <p class="problem">How to Cope with Problem</p>
@@ -98,4 +240,4 @@
   </body>
   <script src="header.js"></script>
   <script src="externalLinks.js"></script>
-</html>
+</html> -->
