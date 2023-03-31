@@ -248,3 +248,8 @@
   align-self: center;
   text-align: center;
 }
+
+/* Media queries */
+
+@media (max-width: 400px) {
+}
