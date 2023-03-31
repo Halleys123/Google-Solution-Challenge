@@ -29,7 +29,7 @@ document.querySelectorAll(".card2").forEach((entry) => {
 document.querySelectorAll(".link").forEach((entry, index, arr) => {
   entry.addEventListener("click", (e) => {
     console.log(e.currentTarget.id);
-    if (index == 0 || index == arr.length - 1) {
+    if (index == 0 || index == arr.length - 1 || index == arr.length - 2) {
       window.location = `${e.currentTarget.id}.html`;
     } else {
       document.querySelector(`.${e.target.id}`).scrollIntoView({

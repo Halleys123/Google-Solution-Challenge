@@ -8,3 +8,8 @@
 .first {
   padding-top: 0;
 }
+.cardTwoImage {
+  width: 70%;
+  border-radius: 1.2rem;
+  justify-self: flex-start;
+}

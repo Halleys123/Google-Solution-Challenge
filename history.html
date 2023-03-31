@@ -21,17 +21,19 @@
   <body>
     <!-- <nav class="nav"></nav> -->
     <header class="header">
-      <img src="./Icons/planet-earth.webp" class="mainIcon" />
+      <div class="iconImage">
+        <img src="./Icons/planet-earth.webp" class="mainIcon" />
+      </div>
       <div class="links">
-        <span>Item 1</span>
-        <span>Item 2</span>
-        <span>Item 3</span>
+        <span class="link" id="index">Home</span>
+        <span class="link" id="about">About Us</span>
       </div>
     </header>
 
-    <div class="container">
-      <img src="./resources/beach.webp" class="myImage" />
-      <p class="history">History</p>
+    <div class="front">
+      <div class="flexOfTwo">
+        <p class="headText">History</p>
+      </div>
     </div>
 
     <div class="contents">
@@ -79,7 +81,7 @@
         </p>
       </div>
 
-      <div class="box">
+      <div class="box last">
         <p class="date">2015</p>
         <p class="content">
           In 2015, the Sustainable Development Goals were established by the
@@ -91,5 +93,6 @@
       </div>
     </div>
   </body>
-  <script src = "script.js"></script>
+  <script src="script.js"></script>
+  <script src="externalLinks.js"></script>
 </html>
