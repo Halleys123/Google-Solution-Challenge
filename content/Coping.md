@@ -1,4 +1,4 @@
-### How to Cope with Problem <!-- Main Heading -->
+### How to cope with Problem <!-- Main Heading -->
 
 #### Urban Planning
 
